@@ -1,3 +1,3 @@
 # Fabric TapStrafe mod
 
-TapSrafeもどきを追加するmod
+タップストレイフもどきを追加するmod
