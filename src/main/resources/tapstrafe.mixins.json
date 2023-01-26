@@ -4,6 +4,8 @@
   "package": "me.yakimaguro.tapstrafe.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EntityMixin",
+    "PlayerEntityMixin"
   ],
   "client": [
     "MouseMixin"
