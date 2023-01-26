@@ -1,18 +1,16 @@
 package me.yakimaguro.tapstrafe.mixin;
 
 import me.yakimaguro.tapstrafe.Direction;
-import me.yakimaguro.tapstrafe.TapStrafeMod;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.Mouse;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(Mouse.class)
-public class PlayerEntityMixin {
+public class MouseMixin {
 
 	MinecraftClient mc = MinecraftClient.getInstance();
 
