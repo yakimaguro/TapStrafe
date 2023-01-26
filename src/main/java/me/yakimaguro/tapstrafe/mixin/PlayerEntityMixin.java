@@ -32,9 +32,10 @@ public class PlayerEntityMixin extends EntityMixin {
                 if (climbing) {
                     tick++;
                     if (mc.player.input.sneaking) {
-                        PlayerUtil.setSpeed((float) PlayerUtil.getNormalSpeed() * 4.0f, 0);
+                        PlayerUtil.setSpeed((float) PlayerUtil.getNormalSpeed() * 2.5f, 0);
                     }
-                    if (tick <= 40) {
+                    if (tick > 5) {
+                        tick = 0;
                         climbing = false;
                     }
                 }
